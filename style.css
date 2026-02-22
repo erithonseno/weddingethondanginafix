@@ -6,6 +6,11 @@
     --neutral-gray: #8B8680;
     --light-gray: #D4CECE;
     --text-dark: #4A4A45;
+    --bg-cream-1: #FFFCF7;
+    --bg-cream-2: #F0E8DC;
+    --bg-cream-3: #E8DCD0;
+    --bg-cream-4: #DCC9B8;
+    --bg-beige: #D0BFAF;
 }
 
 * {
@@ -29,7 +34,7 @@ body {
 /* ========== Hero Section ========== */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, var(--cream) 0%, var(--light-cream) 100%);
+    background-color: var(--bg-cream-1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +150,7 @@ body {
 
 /* ========== Couple Section ========== */
 .couple-section {
-    background: linear-gradient(to bottom, var(--light-cream), var(--cream));
+    background-color: var(--bg-cream-2);
 }
 
 .couple-section .container {
@@ -181,7 +186,7 @@ body {
 
 /* ========== Story Section ========== */
 .story-section {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--light-cream) 100%);
+    background-color: var(--bg-cream-3);
 }
 
 .story-timeline {
@@ -270,7 +275,7 @@ body {
 
 /* ========== Countdown Section ========== */
 .countdown-section {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--light-cream) 100%);
+    background-color: var(--bg-cream-4);
 }
 
 .countdown-grid {
@@ -313,7 +318,7 @@ body {
 
 /* ========== Gallery Section ========== */
 .gallery-section {
-    background: linear-gradient(to bottom, var(--light-cream), var(--cream));
+    background-color: var(--bg-cream-2);
 }
 
 .gallery-grid {
@@ -341,7 +346,7 @@ body {
 
 /* ========== Messages Section ========== */
 .messages-section {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--light-cream) 100%);
+    background-color: var(--bg-beige);
 }
 
 .messages-container {
@@ -402,7 +407,7 @@ body {
 
 /* ========== RSVP Section ========== */
 .rsvp-section {
-    background: linear-gradient(to bottom, var(--light-cream), var(--cream));
+    background-color: var(--bg-cream-3);
 }
 
 .rsvp-form {
